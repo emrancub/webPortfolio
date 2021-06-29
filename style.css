@@ -11,3 +11,12 @@ h1{
 .name-highlight{
     color: orange;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.half-width img{
+    width: 100%;
+}
