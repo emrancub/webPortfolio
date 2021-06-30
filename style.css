@@ -9,12 +9,11 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
-    border: 1px solid red;
     height: 550px;
     width: 100%;
     background-repeat: no-repeat;
@@ -23,9 +22,14 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    border: 1px solid red;
     height: 550px;
     width: 100%;
+}
+.experience-area{
+    height: 550px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .half-width{
     width: 40%;
@@ -54,4 +58,24 @@ h2{
 }
 p{
     color: dimgray;
+}
+.single-experienc{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
